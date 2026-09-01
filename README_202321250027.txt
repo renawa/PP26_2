@@ -1,0 +1,32 @@
+sistema de calculadora orientado a objetos - java
+matrícula: 202321250027
+
+1) VERSÃO DO COMPILADOR JAVA UTILIZADA
+javac 21.0.12 (OpenJDK 21.0.12)
+
+2) IDE E RESPECTIVA VERSÃO
+visual studio code na versão 1.135
+
+3) SISTEMA OPERACIONAL E RESPECTIVA VERSÃO
+windows 10 pro na versão 22h2
+
+4) TIPO DA BIBLIOTECA CRIADA PARA calculadora_202321250027
+arquivo .jar com o nome calculadora_202321250027 
+
+5) DESCRIÇÃO DE CADA MÉTODO DA CLASSE
+
+public double somar(double a, double b): recebe dois valores numéricos (a e b) e retorna o resultado da soma entre eles (a + b).
+
+public double subtrair(double a, double b): recebe dois valores numéricos (a e b) e retorna o resultado da subtração entre eles (a - b), 
+sendo "a" o minuendo e "b" o subtraendo.
+    
+public double multiplicar(double a, double b): recebe dois valores numéricos (a e b) e retorna o resultado da multiplicação entre eles (a * b).
+
+public double dividir(double a, double b): 
+recebe dois valores numéricos (a e b) e retorna o resultado da divisão entre eles (a / b), sendo "a" o dividendo e "b" o divisor. 
+caso o divisor "b" seja igual a zero, o método lança uma exceção do tipo ArithmeticException com a mensagem "divisão por zero não
+é permitida.", evitando o retorno de valores inconsistentes
+e garantindo um tratamento de erro explícito
+para essa condição.
+
+
